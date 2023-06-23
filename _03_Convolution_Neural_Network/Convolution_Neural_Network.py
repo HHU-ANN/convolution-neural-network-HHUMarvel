@@ -45,7 +45,7 @@ class ResidualBlock(nn.Module):
         return out
 
 
-# ResNet定义
+# ResNet定义 NeuralNetwork
 class NeuralNetwork(nn.Module):
     def __init__(self, block, layers, num_classes=10):
         super(NeuralNetwork, self).__init__()
